@@ -3,19 +3,22 @@
 <head>
   <title>WFMU PLAY BUTTON</title>
   <style>
-   
-    .wrapper{
+     /* style for TOP of Player section where the "WHAT's PLAYING" information is displayed*/
+
+
+   /* style for Bottom Player Section */
+    .player-wrapper{
       display:grid;
-      grid-template-columns:  15% 70% 15%;
+      grid-template-columns:  10% 75% 15%;
       grid-gap:1px;
       grid-auto-rows: minmax(20px, auto);
     }
-    .wrapper > div{
+    .player-wrapper > div{
       background:#eee;
       padding: 5px;
       
     }
-    .wrapper > div:nth-child(odd){
+    .player-wrapper > div:nth-child(odd){
       background:#ddd;
       
     }
@@ -49,7 +52,7 @@
   </style>
 </head>
 <body>
-  <div class="wrapper">
+  <div class="player-wrapper">
     <div class="center">
       
       <button class="button1"></button>
@@ -57,7 +60,7 @@
     </div>
       
     <div class="center">
-      WFMU MAIN STREAM INFORMATION xxxxx
+      WFMU MAIN STREAM INFORMATION
     </div>
     <div class="center">
       LIVE DJ
@@ -96,11 +99,3 @@
 </html>
 
 
-<!-- super centered css: place-items: center 
-.ex1 .parent {
-  display: grid;
-  place-items: center;
-
-}
-
--->
